@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="">
+	<label>Username: </label>
+	<input type="text" /><br/>
+	<label>Password: </label>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+D:\DAC Acts Pune\Advance Java\Day 3\OnlineShopping\.metadata\.plugins\org.eclipse.jdt.core
+1200483266.index
+1865797976.index
+357321333.index
+3062986636.index
+610466982.index
