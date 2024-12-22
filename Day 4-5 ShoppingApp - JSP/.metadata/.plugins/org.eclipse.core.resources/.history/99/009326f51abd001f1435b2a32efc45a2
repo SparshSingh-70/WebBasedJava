@@ -1,0 +1,43 @@
+package com.servlets;
+
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+
+@WebServlet("/AddCard")
+public class AddCard extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	
+	Connection connection;
+	PreparedStatement ps;
+  
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		PrintWriter out = response.getWriter();
+		
+		ServletContext context = getServletContext();
+		
+		String dbUrl = context.getInitParameter("dbUrl");
+		String dbDriver = context.getInitParameter("dbDriver");
+		String dbUsername = context.getInitParameter("dbUsername");
+		String dbPassword = context.getInitParameter("dbPassword");
+		
+		HttpSession session = request.getSession(false);
+		if(session == null) {
+			response.sendRedirect("login.html");
+			return;
+		}
+		
+		out.println("<h1>Add Card</h1>");
+	}
+
+}

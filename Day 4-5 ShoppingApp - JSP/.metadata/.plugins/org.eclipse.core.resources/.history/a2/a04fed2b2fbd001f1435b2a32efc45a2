@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1> New User Registration</h1>
+
+<label>UserName: </label>
+	<input name="username" type="text" /><br/>
+	<label>Password: </label>
+	<input name="password" type="password" /><br/>
+	
+	
+<label>Name </label>
+	<input name="name" type="text" /><br/>
+	
+	
+<label>UserName: </label>
+	<input name="username" type="text" /><br/>
+	<button type="submit">Login</button>
+</body>
+</html>

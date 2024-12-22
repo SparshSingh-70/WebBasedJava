@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1 class="text-center mt-5">Add Card Page</h1>
+	<div>
+		<form action="AddCard" method="post">
+			<label>Card Number</label>
+			<input type="number" name="cardNumber" />
+			<label>Expiry Date</label>
+			<input type="text" name="expiryDate" />
+			<label>Balance</label>
+			<input type="number" name="balance" />
+			<button type="submit">Add Card</button>
+		</form>
+	</div>
+</body>
+</html>

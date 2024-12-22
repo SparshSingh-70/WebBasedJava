@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>New User Registration</h1>
+
+<form action = "Confirm.jsp" method = "Post"> 
+	<label>UserName: </label>
+	<input name="username" type="text" />
+	<br />
+	<label>Password: </label>
+	<input name="password" type="password" />
+	<br />
+
+
+	<label>Name </label>
+	<input name="name" type="text" />
+	<br />
+
+
+	<label>Email: </label>
+	<input name="email" type="email" />
+	<br />
+	<button type="submit">Register</button>
+	Already a User? <a href = "login.html">Login</a>
+</form>
+</body>
+</html>

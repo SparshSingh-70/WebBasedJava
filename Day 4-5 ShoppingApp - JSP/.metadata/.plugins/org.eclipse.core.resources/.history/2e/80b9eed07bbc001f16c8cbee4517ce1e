@@ -1,0 +1,9 @@
+package com.pojos;
+
+public class CartItem {
+
+	private int catrgoryId;
+	private int productId;
+	private int catrgoryId;
+	
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Make it responsive -->
+<title>Administration Panel</title>
+</head>
+<body>
+
+	<h1 class="text-center mt-5">Administration Page</h1>
+
+	<!-- Basic Select Dropdown with Form -->
+	<div class="container mt-4">
+		<form action="" method="get">
+			<label for="actionSelect" class="form-label">Select Action</label> <select
+				id="actionSelect" name="action" class="form-select"
+				>
+				<option value="">-- Select an Action --</option>
+				<option value="/AddCategory.html">Add Category</option>
+				<option value="/DeleteCategory.html">Delete Category</option>
+				<option value="/AddProduct.html">Add Product</option>
+				<option value="/AddCard.html">Add Card</option>
+			</select>
+		</form>
+	</div>
+
+</body>
+</html>
